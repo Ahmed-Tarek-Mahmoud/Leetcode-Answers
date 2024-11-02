@@ -1,6 +1,7 @@
 /**
  * Name: Ahmed Tarek
  * Date: 30 Oct 2024
+ * Problem Link: https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
  */
 struct ListNode {
     int val;

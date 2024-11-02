@@ -1,6 +1,7 @@
 /**
  * Name: Ahmed Tarek
  * Date: 30 Oct 2024
+ * Problem Link: https://leetcode.com/problems/delete-node-in-a-linked-list/
  */
 struct ListNode {
     int val;
