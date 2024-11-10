@@ -14,8 +14,10 @@ public:
     void deleteNode(ListNode* node) {
         if(node == nullptr) return;
 
-        node->val = node->next->val; 
-        node->next = node->next->next; // i copied next node to current node then skipped the next
+        node->val = node->next->val; // copy the value of next node as if i am skipping it
+        ListNode* todelete = node->next;
+        node->next = node->next->next;
+        delete todelete;
 
     }
 };
